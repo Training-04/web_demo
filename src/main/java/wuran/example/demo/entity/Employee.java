@@ -1,9 +1,36 @@
 package wuran.example.demo.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Date;
-
+@Entity(name = "employees")
 public class Employee {
-    public double getEmployeeId() {
+
+    @Id
+    @Column(name = "employee_id")
+    private Double employeeId;
+    @Column(name = "first_name")
+    private String firstName;
+    @Column(name = "last_name")
+    private String lastName;
+    @Column(name = "email")
+    private String email;
+    @Column(name = "phone_number")
+    private String phoneNumber;
+    @Column(name = "hire_date")
+    private Date hireDate;
+    @Column(name = "job_id")
+    private String jobId;
+    @Column(name = "salary")
+    private Double salary;
+    @Column(name = "commission_pct")
+    private Double commissionPCT;
+    @Column(name = "manager_id")
+    private Double managerId;
+    @Column(name = "department_id")
+    private Double departmentId;
+    public Double getEmployeeId() {
         return employeeId;
     }
 
@@ -35,12 +62,12 @@ public class Employee {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public Date getHireDate() {
@@ -59,7 +86,7 @@ public class Employee {
         this.jobId = jobId;
     }
 
-    public double getSalary() {
+    public Double getSalary() {
         return salary;
     }
 
@@ -67,7 +94,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    public double getCommissionPCT() {
+    public Double getCommissionPCT() {
         return commissionPCT;
     }
 
@@ -75,7 +102,7 @@ public class Employee {
         this.commissionPCT = commissionPCT;
     }
 
-    public double getManagerId() {
+    public Double getManagerId() {
         return managerId;
     }
 
@@ -83,7 +110,7 @@ public class Employee {
         this.managerId = managerId;
     }
 
-    public double getDepartmentId() {
+    public Double getDepartmentId() {
         return departmentId;
     }
 
@@ -91,15 +118,4 @@ public class Employee {
         this.departmentId = departmentId;
     }
 
-    private double employeeId;
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String phone;
-    private Date hireDate;
-    private String jobId;
-    private double salary;
-    private double commissionPCT;
-    private double managerId;
-    private double departmentId;
 }
