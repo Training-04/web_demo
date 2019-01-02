@@ -1,0 +1,8 @@
+@startuml
+title  bean init
+start
+:new bean;
+:bean properties initialize;
+:afterPropertiesSet;
+stop
+@enduml

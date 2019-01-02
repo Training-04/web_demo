@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="274px" preserveAspectRatio="none" style="width:175px;height:274px;" version="1.1" viewBox="0 0 175 274" width="175px" zoomAndPan="magnify"><defs><filter height="300%" id="fb83rdp5ouvx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="68" x="52.5" y="30.6279">bean init</text><ellipse cx="87" cy="44.583" fill="#000000" filter="url(#fb83rdp5ouvx)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/><rect fill="#FEFECE" filter="url(#fb83rdp5ouvx)" height="36.3887" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="74" x="50" y="74.583"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="60" y="98.335">new bean</text><rect fill="#FEFECE" filter="url(#fb83rdp5ouvx)" height="36.3887" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="154" x="10" y="130.9717"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="134" x="20" y="154.7236">bean properties initialize</text><rect fill="#FEFECE" filter="url(#fb83rdp5ouvx)" height="36.3887" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="119" x="27.5" y="187.3604"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="99" x="37.5" y="211.1123">afterPropertiesSet</text><ellipse cx="87" cy="253.749" fill="none" filter="url(#fb83rdp5ouvx)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/><ellipse cx="87.5" cy="254.249" fill="#000000" filter="url(#fb83rdp5ouvx)" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="87" x2="87" y1="54.583" y2="74.583"/><polygon fill="#A80036" points="83,64.583,87,74.583,91,64.583,87,68.583" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="87" x2="87" y1="110.9717" y2="130.9717"/><polygon fill="#A80036" points="83,120.9717,87,130.9717,91,120.9717,87,124.9717" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="87" x2="87" y1="167.3604" y2="187.3604"/><polygon fill="#A80036" points="83,177.3604,87,187.3604,91,177.3604,87,181.3604" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="87" x2="87" y1="223.749" y2="243.749"/><polygon fill="#A80036" points="83,233.749,87,243.749,91,233.749,87,237.749" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+title  bean init
+start
+:new bean;
+:bean properties initialize;
+:afterPropertiesSet;
+stop
+@enduml
+
+PlantUML version 1.2018.12(Sun Oct 21 18:15:15 CST 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_181-b13
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

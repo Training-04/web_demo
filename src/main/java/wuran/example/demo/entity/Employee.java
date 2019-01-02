@@ -1,5 +1,7 @@
 package wuran.example.demo.entity;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -19,6 +21,7 @@ public class Employee {
     @Column(name = "phone_number")
     private String phoneNumber;
     @Column(name = "hire_date")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date hireDate;
     @Column(name = "job_id")
     private String jobId;
